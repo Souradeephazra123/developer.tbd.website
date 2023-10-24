@@ -136,7 +136,7 @@ export function Footer() {
           <ul className="flex justify-end flex-auto nav-links">
             {footer.links &&
               footer.links.map((link, index) => (
-                <li key={index} className="ml-12 flex items-center py-0.5">
+                <li key={index} className="ml-12 flex items-center py-0.5 d-md-inline d-sm-inline">
                   <TextLink
                     className="py-3 text-primary-black hover:text-primary-black hoverLink"
                     href={link.href}
